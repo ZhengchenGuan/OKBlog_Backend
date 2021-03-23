@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OKBLOGAPI", "OKBLOGAPI\OKBLOGAPI.csproj", "{789B53E7-7439-4233-89AD-E188707B742E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OKBLOGAPI.Service", "OKBLOGAPI.Service\OKBLOGAPI.Service.csproj", "{7729F304-F2ED-4388-B68A-906D98D64AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OKBLOGAPI.Repository", "OKBLOGAPI.Repository\OKBLOGAPI.Repository.csproj", "{398F261C-22FA-4B3B-A24A-0490B0CBBBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OKBLOGAPI.Domain", "OKBLOGAPI.Domain\OKBLOGAPI.Domain.csproj", "{1802A1C4-4156-4A19-92AE-B455152646A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{789B53E7-7439-4233-89AD-E188707B742E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{789B53E7-7439-4233-89AD-E188707B742E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{789B53E7-7439-4233-89AD-E188707B742E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7729F304-F2ED-4388-B68A-906D98D64AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7729F304-F2ED-4388-B68A-906D98D64AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7729F304-F2ED-4388-B68A-906D98D64AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7729F304-F2ED-4388-B68A-906D98D64AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398F261C-22FA-4B3B-A24A-0490B0CBBBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398F261C-22FA-4B3B-A24A-0490B0CBBBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398F261C-22FA-4B3B-A24A-0490B0CBBBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398F261C-22FA-4B3B-A24A-0490B0CBBBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1802A1C4-4156-4A19-92AE-B455152646A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1802A1C4-4156-4A19-92AE-B455152646A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1802A1C4-4156-4A19-92AE-B455152646A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1802A1C4-4156-4A19-92AE-B455152646A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
