@@ -9,6 +9,6 @@ namespace OKBLOGAPI.Service.Interface
 {
     public interface IRestaurantService
     {
-        Task<IEnumerable<Restaurant>> GetAsync();
+        Task<IEnumerable<Restaurant>> GetAllAsync();
     }
 }

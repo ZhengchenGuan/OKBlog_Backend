@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OKBLOGAPI.Domain\OKBLOGAPI.Domain.csproj" />
+    <ProjectReference Include="..\OKBLOGAPI.Repository\OKBLOGAPI.Repository.csproj" />
   </ItemGroup>
 
 </Project>

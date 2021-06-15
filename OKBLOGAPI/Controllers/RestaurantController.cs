@@ -20,9 +20,9 @@ namespace OKBLOGAPI.Controllers
         }
 
         [HttpGet("")]
-        public async Task<IEnumerable<Restaurant>> GetAsync()
+        public async Task<IEnumerable<Restaurant>> GetAllAsync()
         {
-            return await _restaurantService.GetAsync();
+            return await _restaurantService.GetAllAsync();
         }
     }
 }
